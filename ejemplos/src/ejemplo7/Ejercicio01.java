@@ -43,7 +43,7 @@ public class Ejercicio01 {
 		}	
 		
 		
-		
+		scn.close();
 		
 		
 		

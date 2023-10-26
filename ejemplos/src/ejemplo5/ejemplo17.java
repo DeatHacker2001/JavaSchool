@@ -19,6 +19,6 @@ public class ejemplo17 {
 		d = b / c;
 		System.out.println("La media es " + d);
 		
-		
+		scn.close();
 	}
 }

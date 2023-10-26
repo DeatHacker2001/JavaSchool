@@ -38,5 +38,6 @@ public class ejemplo16 {
 			
 		}
 		System.out.println("La ganancia es : " + g);
+		scn.close();
 	}
 }

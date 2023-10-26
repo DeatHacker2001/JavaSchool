@@ -9,6 +9,7 @@ public class ejercicioasd {
 		int num = Integer.parseInt(scn.nextLine());
 		String a = binario(num);
 		System.out.println(a);
+		scn.close();
 		
 
 	}
