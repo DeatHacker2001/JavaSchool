@@ -20,6 +20,19 @@ public class Ejercicio02 {
 		JOptionPane.showConfirmDialog(null, dialog);
 
 	}
+	private void rotateNumber(Scanner scn) {
+		
+		
+		int x = scn.nextInt();
+		
+		
+		for (int i = 0; i < x; i++) {
+			
+
+			
+		}
+		
+	}
 	
 	
 	public static void main(String[] args) {
