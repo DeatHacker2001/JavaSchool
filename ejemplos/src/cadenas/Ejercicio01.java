@@ -28,14 +28,15 @@ public class Ejercicio01 {
 			char chr1[] = new char[aText[i].length()];
 			for ( j = 0;j < chr1.length; j++) {
 				chr1[j] = aText[i].charAt(j);
-				for (int k = 0; k < chr.length; k++) {
-					if (chr1[j] == chr[k]) {
-						utilChar[cont] = chr[k];
-						numVocal[cont] = cont++;
-						
-					}
-				}
 				
+			}
+			for (int k = 0; k < chr.length; k++) {
+				if (chr1.equals(chr[k])) {
+					utilChar[j] = chr[k];
+					numVocal[j] = cont++;
+					j++;
+					
+				}
 			}
 		}
 		
